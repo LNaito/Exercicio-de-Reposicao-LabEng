@@ -15,8 +15,9 @@ O HelpDesk Mini é o núcleo de controle de chamados do laboratório de informá
 - `tests/test_chamados.py` – os 10 cenários obrigatórios.
 
 ## Como rodar o projeto
-Para rodar o projeto, basta a inserção dos seguintes comandos na pasta /helpdesk.
+Para rodar o projeto, basta a inserção dos seguintes comandos no terminal.
 ```bash
+cd helpdesk-mini/
 python -m venv .venv
 source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
